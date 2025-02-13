@@ -1,40 +1,95 @@
-# Kindi Company Profile
+# First Company Profile
 
-A simple and responsive company profile website built with HTML, CSS, and jQuery. This project includes multiple pages: Home, About, Services, and Contact.
+First Company Profile is a responsive and interactive website designed for showcasing a company's profile, services, and contact information. The website features a clean and modern layout with engaging effects, ensuring a smooth user experience on both desktop and mobile devices.
 
 ## Features
 
-- **Responsive Design:** Optimized for both desktop and mobile devices.
-- **Loader Animation:** Smooth loading experience using jQuery.
-- **Social Media Integration:** Quick links to Instagram, Facebook, and Twitter.
-- **Clean Code Structure:** Organized folder structure for easy maintenance.
-- **Google Maps Integration:** Embedded map on the Contact page.
+- **Responsive Navigation:**  
+  The navbar adapts its appearance on scroll, providing visual feedback and improved readability.
 
-## Folder Structure
+- **Mobile-Friendly Menu:**  
+  The website layout adjusts seamlessly for smaller screens, ensuring an optimal mobile experience.
+
+- **Loader Animation:**  
+  A sleek loader animation is displayed during page load, offering a smooth transition to the main content.
+
+- **Google Map Integration:**  
+  The Contact page features an embedded Google Map to display the company’s location.
+
+- **Social Media Integration:**  
+  Direct links to social media profiles allow users to connect with the company easily.
+
+## Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (jQuery)**
+- **Font Awesome** (for icons)
+- **Google Fonts**
+
+## File Structure
 
 ```plaintext
 first-company-profile/
-├── index.html
-├── about.html
-├── service.html
-├── contact.html
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── img/
-│   │   └── banner.jpg   # (and other images as needed)
-│   └── js/             # (for additional JavaScript files, if required)
-└── README.md
+├── index.html            # Main HTML file for the homepage
+├── about.html            # About page detailing company information
+├── service.html          # Services page showcasing the company’s offerings
+├── contact.html          # Contact page with embedded Google Map and contact info
+└── assets/
+    ├── css/
+    │   └── style.css     # Main stylesheet
+    ├── img/              # Project images (e.g., banners, logos, etc.)
+    └── js/               # JavaScript files (if needed)
 ```
 
 ## Installation
 
-1. Clone the repository or download the project files.
-2. Open the project folder.
-3. Open `index.html` in your web browser to view the website.
+Clone the repository:
+
+```bash
+git clone https://github.com/muhammadfaizalalkindi/first-company-profile.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd first-company-profile
+```
+
+Open `index.html` in your preferred web browser to view the website.
+
+## Usage
+
+- **Navigation:**  
+  Use the navigation bar at the top to jump to different sections: Home, About, Services, and Contact.
+
+- **Loader:**  
+  Enjoy the smooth loader animation that appears during the initial page load.
+
+- **Google Map:**  
+  The Contact page includes an embedded Google Map to help you locate the company.
+
+- **Social Media:**  
+  Click on the social media icons to visit the company’s social media profiles.
 
 ## Customization
 
-- **HTML Files:** Modify `index.html`, `about.html`, `service.html`, and `contact.html` to update content as needed.
-- **CSS Styling:** Update `assets/css/style.css` to customize the design, colors, and layout.
-- **Images:** Replace or add images in the `assets/img/` folder.
+- **Styles:**  
+  Modify the `assets/css/style.css` file to customize colors, fonts, layouts, and other design elements.
+
+- **HTML Files:**  
+  Update `index.html`, `about.html`, `service.html`, and `contact.html` to change content as needed.
+
+- **Images:**  
+  Replace or add images in the `assets/img/` directory to match your branding.
+
+## Contributing
+
+Contributions are welcome! If you would like to improve this project, please follow these steps:
+
+1. **Fork** the repository.
+2. **Create** a new branch for your feature or bug fix.
+3. **Commit** your changes with clear and descriptive messages.
+4. **Open** a pull request for review.
+
+For major changes, please open an issue first to discuss what you would like to change.
