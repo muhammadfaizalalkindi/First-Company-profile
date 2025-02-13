@@ -1,0 +1,40 @@
+# Kindi Company Profile
+
+A simple and responsive company profile website built with HTML, CSS, and jQuery. This project includes multiple pages: Home, About, Services, and Contact.
+
+## Features
+
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Loader Animation:** Smooth loading experience using jQuery.
+- **Social Media Integration:** Quick links to Instagram, Facebook, and Twitter.
+- **Clean Code Structure:** Organized folder structure for easy maintenance.
+- **Google Maps Integration:** Embedded map on the Contact page.
+
+## Folder Structure
+
+```plaintext
+first-company-profile/
+├── index.html
+├── about.html
+├── service.html
+├── contact.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   └── banner.jpg   # (and other images as needed)
+│   └── js/             # (for additional JavaScript files, if required)
+└── README.md
+```
+
+## Installation
+
+1. Clone the repository or download the project files.
+2. Open the project folder.
+3. Open `index.html` in your web browser to view the website.
+
+## Customization
+
+- **HTML Files:** Modify `index.html`, `about.html`, `service.html`, and `contact.html` to update content as needed.
+- **CSS Styling:** Update `assets/css/style.css` to customize the design, colors, and layout.
+- **Images:** Replace or add images in the `assets/img/` folder.
